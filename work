@@ -1,0 +1,88 @@
+# name = ("mariyam beevi")
+# age = ("21")
+# course = ("data analytics")
+# employment_status = ("unemployed")
+# stipend = (5000)
+
+# print("\n--- Student Profile ---")
+# print(f"Name: {name}")
+# print(f"Age: {age}")
+# print(f"Course: {course}")
+# print(f"Employment Status: {employment_status}")
+# print(f"Monthly Stipend: ₹{stipend}")
+
+# print("\n--- Name Analysis ---")
+# print(f"First 3 letters: {name[:3]}")
+# print(f"Uppercase name: {name.upper()}")
+
+# student_details = (name, age, course, employment_status, stipend)
+
+# print("\n--- Student Details Tuple ---")
+# print(student_details)
+
+# marks = [85, 72, 90, 72, 65]
+
+# print("\n--- Marks ---")
+# print(f"Original Marks: {marks}")
+
+# marks.append(88)                  add mark
+# marks.remove(65)                  remove mark
+# marks.sort()                      sort arks
+# marks = list(set(marks))          remove duplicates 
+
+# print("\n--- Updated Marks ---")
+# print(f"Updated Marks: {marks}")
+
+# subject_marks = {
+#     "Python": 85,
+#     "Excel": 72,
+#     "Power BI": 90
+# }
+
+# print("\n--- Subject-wise Marks ---")
+# print(subject_marks)
+
+# # Update Python mark
+# subject_marks["Python"] = 88
+
+# # Add new subject
+# subject_marks["MySQL"] = 80
+
+# print("\n--- Updated Subject Marks ---")
+# print(subject_marks)
+
+# subjects = frozenset(["Python", "Excel", "Power BI", "MySQL"])
+
+# print("\n--- Subjects ---")
+# print(subjects)
+
+# online_students = {"Anu", "Ravi", "Rahul", "Meera"}
+# offline_students = {"Ravi", "Meera", "Akhil", "John"}
+
+# print("\n--- Student Registration ---")
+
+# # Common students
+# print(f"Common Students: {online_students & offline_students}")
+
+# # All registered students
+# print(f"All Students: {online_students | offline_students}")
+
+# # Only online students
+# print(f"Only Online Students: {online_students - offline_students}")
+
+# subject_marks = {"Python": 88,"Excel": 72,"Power BI": 90,"MySQL": 80}
+
+# average = sum(subject_marks.values()) / len(subject_marks)
+
+# print(f"Average Marks: {average:.2f}")
+
+# if average >= 90:
+#     grade = "A"
+# elif average >= 75:
+#     grade = "B"
+# elif average >= 50:
+#     grade = "C"
+# else:
+#     grade = "Fail"
+
+# print(f"Grade: {grade}")
